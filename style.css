@@ -1,0 +1,146 @@
+/* Resets */
+body,
+p,
+ul {
+  margin: unset;
+  padding: unset;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  margin: unset;
+  font-size: unset;
+  font-weight: unset;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  all: unset;
+}
+
+/* CSS Variables */
+:root {
+  --color-primary: #37c797;
+}
+
+/* Typography */
+:root {
+  font-family: "Noto Sans KR", "sans-serif";
+}
+
+/* Layouts */
+.wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+/* Components */
+body {
+  background-color: #e6eaed;
+}
+
+.app {
+  background-color: #fff;
+  max-width: 600px;
+  max-height: 800px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 68px 34px 0;
+  box-sizing: border-box;
+  border-radius: 4%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  padding-bottom: 14px;
+  height: 150px;
+  flex-shrink: 0;
+  border-bottom: 2px solid #e6eaed;
+}
+
+.date {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2e3438;
+  margin-bottom: 4px;
+}
+
+.day {
+  font-size: 1.2rem;
+  color: #848b94;
+  margin-bottom: 36px;
+}
+
+.state {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.app-main {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-height: 540px;
+  color: #5a6065;
+  overflow-y: scroll;
+}
+
+.lists {
+  padding: 24px;
+  font-size: 1.2rem;
+}
+
+.lists li {
+  margin-bottom: 24px;
+  padding-left: 50px;
+  text-indent: -50px;
+}
+
+.lists li:last-child {
+  margin-bottom: 0;
+}
+
+.lists li:hover {
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.lists li::before {
+  content: " ";
+  border: 1px solid var(--color-primary);
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 14px;
+  margin-bottom: -12px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: -28px;
+}
+
+.button-type_add {
+  display: inline-block;
+  background-color: var(--color-primary);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.button-type_add:hover {
+  background-color: #26d69c;
+  font-weight: 700;
+  transition: 0.25s;
+}
