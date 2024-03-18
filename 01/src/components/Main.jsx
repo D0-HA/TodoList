@@ -4,7 +4,7 @@ function Main() {
       <main className="app-main">
         <ul className="lists">
           <li className="list-item is_active">
-            <img src="./src/assets/check_active.png" />
+            <img src="src/assets/check_active.png" />
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               aliquam nostrum minus accusantium hic soluta itaque fugiat
@@ -16,7 +16,7 @@ function Main() {
             </button>
           </li>
           <li className="list-item">
-            <img src="./src/assets/check_inactive.png" />
+            <img src="src/assets/check_inactive.png" />
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               aliquam nostrum minus accusantium hic soluta itaque fugiat
@@ -28,7 +28,7 @@ function Main() {
             </button>
           </li>
           <li className="list-item">
-            <img src="./src/assets/check_inactive.png" />
+            <img src="src/assets/check_inactive.png" />
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               aliquam nostrum minus accusantium hic soluta itaque fugiat
@@ -40,7 +40,7 @@ function Main() {
             </button>
           </li>
           <li className="list-item">
-            <img src="./src/assets/check_inactive.png" />
+            <img src="src/assets/check_inactive.png" />
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               aliquam nostrum minus accusantium hic soluta itaque fugiat
